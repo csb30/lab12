@@ -4,8 +4,8 @@ public class BusStop {
     double lat, lon, distance;
 
     public BusStop(double lat1, double lon1, double lat2, double lon2){
-        this.lat=lat1;
-        this.lon=lon1;
+        this.lat=lat2;
+        this.lon=lon2;
         valid=false;
 
         distance=dist(lat1, lon1, lat2, lon2);
